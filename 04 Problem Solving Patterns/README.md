@@ -31,7 +31,7 @@ function validAnagram(first, second) {
 
   for (let i = 0; i < second.length; i++) {
     let letter = second[i];
-    // can't find letter or letter is zero thne it's not an anagram
+    // can't find letter or letter is zero then it's not an anagram
     if (!lookup[letter]) {
       return false;
     } else {

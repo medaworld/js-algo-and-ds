@@ -22,7 +22,7 @@ Count the number of simple operations the computer has to perform.
 - It allows us to talk formally about how the runtime of an algorithm grows as the inputs grow.
 
 - f(n) could be linear (f(n) = n)
-- f(n) could be quadratic (f(n) = n^2^)
+- f(n) could be quadratic (f(n) = n<sup>2</sup>)
 - f(n) could be constant (f(n) = 1)
 
 ## Simplifying Big O
