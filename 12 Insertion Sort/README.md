@@ -1,5 +1,7 @@
 # Insertion Sort
 
+![InsertionSort](/Images/insertionSort.gif)
+
 - Builds up the sort by gradually creating a larger left half which is always sorted
 
 ## Insertion Sort Pseudocode

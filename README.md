@@ -165,3 +165,46 @@ function mergeSort(arr) {
   return merge(left, right);
 }
 ```
+
+## Quick Sort
+
+- Like merge sort, exploits the fact that arrays of 0 or 1 elements are always sorted
+- Works by selecting one element (called the "pivot") and finding the index where the pivot should end up in the sorted array
+
+```
+function pivot(arr, start = 0, end = arr.length + 1) {
+  function swap(array, i, j) {
+    let temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+
+  // We are assuming the pivot is always the first element
+  let pivot = arr[start];
+  let swapIdx = start;
+
+  for (let i = start + 1; i < arr.length; i++) {
+    if (pivot > arr[i]) {
+      swapIdx++;
+      swap(arr, swapIdx, i);
+    }
+  }
+
+  // Swap the pivot from the start of the swapPoint
+  swap(arr, start, swapIdx);
+  return swapIdx;
+}
+```
+
+```
+function quickSort(arr, left = 0, right = arr.length - 1) {
+  if (left < right) {
+    let pivotIndex = pivot(arr, left, right);
+    //left
+    quickSort(arr, left, pivotIndex - 1);
+    //right
+    quickSort(arr, pivotIndex + 1, right);
+  }
+  return arr;
+}
+```

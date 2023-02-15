@@ -1,5 +1,7 @@
 # Merge Sort
 
+![MergeSort](/Images/mergeSort.gif)
+
 - If we try bubble sort on a length of 100,000, it will be inefficient
 - It can improve time complexity from O(n<sup>2</sup>) to O(n log n)
 - There's a tradeoff between efficiency and simplicity
