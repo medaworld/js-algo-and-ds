@@ -257,3 +257,30 @@ function radixSort(nums) {
   return nums;
 }
 ```
+
+## Data Structures Introduction
+
+- Data structures are collections of values, the relationships among them, and the functions or operations that can be applied to the data
+- Different data structures excel at different things. Some are highly specialized, while others (like arrays) are more generally used
+- The more time you spend as a developer, the more likely you'll need to use one of these data structures
+- A blueprint for creating objects with pre-defined properties and methods
+- We're going to implement data structures as classes
+
+```
+class Student {
+    constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+    fullName() {
+        return `Your full name is ${this.firstName} ${this.lastName}`;
+    }
+    static enrollStudents(...students) {
+        // maybe send an email here
+    }
+}
+
+let firstStudent = new Student("Meda", "World")
+firstStudent.fullName() // "Your full name is Meda World"
+Student.enrollStudents() // sends email
+```
