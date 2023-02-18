@@ -284,3 +284,9 @@ let firstStudent = new Student("Meda", "World")
 firstStudent.fullName() // "Your full name is Meda World"
 Student.enrollStudents() // sends email
 ```
+
+## Singly Linked Lists
+
+- Excellent alternative to arrays when insertion and deletion at the beginning are frequently required
+- Arrays contain a built in index wheras Linked Lists do not
+- The idea of a list data structure that consists of nodes is the foundation for other data structures like Stacks and Queues
