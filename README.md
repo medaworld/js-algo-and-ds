@@ -290,3 +290,9 @@ Student.enrollStudents() // sends email
 - Excellent alternative to arrays when insertion and deletion at the beginning are frequently required
 - Arrays contain a built in index wheras Linked Lists do not
 - The idea of a list data structure that consists of nodes is the foundation for other data structures like Stacks and Queues
+
+## Doubly Linked Lists
+
+- Doubly Linked Lists are almost identical to Singly Linked Lists except there is an additional pointer to previous nodes
+- Better than Singly Linked Lists for finding nodes and can be done in half the time
+- However, they do take up more memory considering the extra pointer

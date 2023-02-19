@@ -22,6 +22,25 @@
 - Insertion and deletion can be expensive (everything gets re-indexed)
 - Can quickly be accessed at a specific index
 
+## Setup
+
+```
+class Node {
+  constructor(val) {
+    this.val = val;
+    this.next = null;
+  }
+}
+
+class SinglyLinkedList {
+  constructor() {
+    this.head = null;
+    this.tail = null;
+    this.length = 0;
+  }
+}
+```
+
 ## Pushing Pseudocode
 
 - This function should accept a value
