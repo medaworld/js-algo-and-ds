@@ -305,3 +305,10 @@ Student.enrollStudents() // sends email
 - Queues are a FIFO data structure, all elements are first in first out
 - Queues are useful for processing tasks and are foundational for more complex data structures
 - Both stacks and queues are for simplicity of insertion and removal at O(1), other structures are better for searching and access
+
+## Binary Search Trees
+
+- A data structure that consists of nodes in a parent/child relationship
+- Every node to the left of a parent node is always less than the parent
+- Every node to the right of a parent node is always greater than the parent
+- Makes things easy to find
