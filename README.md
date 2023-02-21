@@ -296,3 +296,12 @@ Student.enrollStudents() // sends email
 - Doubly Linked Lists are almost identical to Singly Linked Lists except there is an additional pointer to previous nodes
 - Better than Singly Linked Lists for finding nodes and can be done in half the time
 - However, they do take up more memory considering the extra pointer
+
+## Stacks & Queues
+
+- Stacks are a LIFO data structure where the last value in is always the first one out
+- Stacks are used to handle function invocations (the call stack), for operations like undo/redo, and for routing (remember pages you have visited and go back/forward) and much more
+- Stacks are not a built in data structure in JavaScript, but are relatively simple to implement
+- Queues are a FIFO data structure, all elements are first in first out
+- Queues are useful for processing tasks and are foundational for more complex data structures
+- Both stacks and queues are for simplicity of insertion and removal at O(1), other structures are better for searching and access
