@@ -312,3 +312,11 @@ Student.enrollStudents() // sends email
 - Every node to the left of a parent node is always less than the parent
 - Every node to the right of a parent node is always greater than the parent
 - Makes things easy to find
+
+## Tree Traversal
+
+- Breadth-first Search - Top to Bottom; Left to Right Each Layer
+- Depth-first Search
+  - Depth-First Search PreOrder - Top to Bottom; Left to Right Each Branch
+  - Depth-First Search PostOrder - Bottom to Top; Left to Right Each Layer
+  - Depth-First Search InOrder - Bottom to Top; Left to Right Each Branch
