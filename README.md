@@ -320,3 +320,9 @@ Student.enrollStudents() // sends email
   - Depth-First Search PreOrder - Top to Bottom; Left to Right Each Branch
   - Depth-First Search PostOrder - Bottom to Top; Left to Right Each Layer
   - Depth-First Search InOrder - Bottom to Top; Left to Right Each Branch
+
+## Binary Heaps
+
+- Binary Heaps are very useful data structures for sorting, and implementing other data structures like priority queues
+- Binary Heaps are either MaxBinaryHeaps or MinBinaryHeaps with parents either being smaller or larger than their children
+- With just a little bit of math, we can represent heaps using arrays
