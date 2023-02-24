@@ -326,3 +326,12 @@ Student.enrollStudents() // sends email
 - Binary Heaps are very useful data structures for sorting, and implementing other data structures like priority queues
 - Binary Heaps are either MaxBinaryHeaps or MinBinaryHeaps with parents either being smaller or larger than their children
 - With just a little bit of math, we can represent heaps using arrays
+
+## Hash Tables
+
+- Hash tables are collections of key-value pairs
+- Can find values quickly given a key
+- Can add new key-values quickly
+- Store data in a large array, and work by hashing the keys
+- A good hash should be fast, distribute keys uniformly, and be deterministic
+- Separate chaining and linear probing are two stretegies used to deal with two keys that hash to the same index
