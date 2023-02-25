@@ -31,12 +31,12 @@
 
 | Operation     | Adjacency List                   | Adjacency Matrix             |
 | :------------ | :------------------------------- | :--------------------------- |
-| Add Vertex    | O(1)                             | O(V<sup>2</sup>)             |
-| Add Edge      | O(1)                             | O(V<sup>2</sup>)             |
+| Add Vertex    | O(1)                             | O(&#124;V<sup>2</sup>&#124;) |
+| Add Edge      | O(1)                             | O(1)                         |
 | Remove Vertex | O(&#124;V&#124; + &#124;E&#124;) | O(&#124;V<sup>2</sup>&#124;) |
 | Remove Edge   | O(&#124;E&#124;)                 | O(1)                         |
 | Query         | O(&#124;V&#124; + &#124;E&#124;) | O(1)                         |
-| Storage       | O(&#124;V&#124; + &#124;E&#124;) | O(&#124;V<sup>2</sup>)       |
+| Storage       | O(&#124;V&#124; + &#124;E&#124;) | O(&#124;V<sup>2</sup>&#124;) |
 
 ### Adjacency List
 
