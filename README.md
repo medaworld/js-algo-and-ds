@@ -335,3 +335,7 @@ Student.enrollStudents() // sends email
 - Store data in a large array, and work by hashing the keys
 - A good hash should be fast, distribute keys uniformly, and be deterministic
 - Separate chaining and linear probing are two stretegies used to deal with two keys that hash to the same index
+
+## Graphs
+
+- A graph data structure consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph
