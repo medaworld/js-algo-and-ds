@@ -344,3 +344,13 @@ Student.enrollStudents() // sends email
 
 - Depth-First - Explore as far as possible down one branch before "backtracking"
 - Breadth-First - Visit neighbors at current depth first
+
+## Dijksta's Algorithm
+
+- One of the most famous and widely used algorithm around
+- Finds the shortest path between two vertices on a graph
+
+1. Every time we look to visit a new node, we pick the node with the smallest known distance to visit first
+2. Once we've moved to the node we're going to visit, we look at each of its neighbors
+3. For each neighboring node, we calculate the distance by summing the total edges that lead to the node we're checking from the starting node
+4. If the new total distance to a node is less than the previous total, we store the new shorter distance for that node
